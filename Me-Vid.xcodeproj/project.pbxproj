@@ -13,9 +13,6 @@
 		FA789D121D9D2862005521A5 /* Me_Vid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA789D101D9D2862005521A5 /* Me_Vid.xcdatamodeld */; };
 		FA789D141D9D2862005521A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA789D131D9D2862005521A5 /* Assets.xcassets */; };
 		FA789D171D9D2862005521A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA789D151D9D2862005521A5 /* LaunchScreen.storyboard */; };
-		FA789D251D9D28AA005521A5 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA789D201D9D28AA005521A5 /* AAPLAppDelegate.m */; };
-		FA789D261D9D28AA005521A5 /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA789D221D9D28AA005521A5 /* AAPLCameraViewController.m */; };
-		FA789D271D9D28AA005521A5 /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA789D241D9D28AA005521A5 /* AAPLPreviewView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,14 +24,6 @@
 		FA789D131D9D2862005521A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA789D161D9D2862005521A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA789D181D9D2862005521A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA789D1E1D9D28AA005521A5 /* Me-Vid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Me-Vid-Bridging-Header.h"; sourceTree = "<group>"; };
-		FA789D1F1D9D28AA005521A5 /* AAPLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLAppDelegate.h; sourceTree = "<group>"; };
-		FA789D201D9D28AA005521A5 /* AAPLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLAppDelegate.m; sourceTree = "<group>"; };
-		FA789D211D9D28AA005521A5 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
-		FA789D221D9D28AA005521A5 /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
-		FA789D231D9D28AA005521A5 /* AAPLPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLPreviewView.h; sourceTree = "<group>"; };
-		FA789D241D9D28AA005521A5 /* AAPLPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLPreviewView.m; sourceTree = "<group>"; };
-		FA789D281D9D28D8005521A5 /* APPLCameraDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPLCameraDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,13 +56,6 @@
 		FA789D081D9D2862005521A5 /* Me-Vid */ = {
 			isa = PBXGroup;
 			children = (
-				FA789D281D9D28D8005521A5 /* APPLCameraDelegate.h */,
-				FA789D1F1D9D28AA005521A5 /* AAPLAppDelegate.h */,
-				FA789D201D9D28AA005521A5 /* AAPLAppDelegate.m */,
-				FA789D211D9D28AA005521A5 /* AAPLCameraViewController.h */,
-				FA789D221D9D28AA005521A5 /* AAPLCameraViewController.m */,
-				FA789D231D9D28AA005521A5 /* AAPLPreviewView.h */,
-				FA789D241D9D28AA005521A5 /* AAPLPreviewView.m */,
 				FA789D091D9D2862005521A5 /* AppDelegate.swift */,
 				FA789D0B1D9D2862005521A5 /* ViewController.swift */,
 				FA789D0D1D9D2862005521A5 /* Main.storyboard */,
@@ -81,7 +63,6 @@
 				FA789D151D9D2862005521A5 /* LaunchScreen.storyboard */,
 				FA789D181D9D2862005521A5 /* Info.plist */,
 				FA789D101D9D2862005521A5 /* Me_Vid.xcdatamodeld */,
-				FA789D1E1D9D28AA005521A5 /* Me-Vid-Bridging-Header.h */,
 			);
 			path = "Me-Vid";
 			sourceTree = "<group>";
@@ -162,10 +143,7 @@
 			files = (
 				FA789D121D9D2862005521A5 /* Me_Vid.xcdatamodeld in Sources */,
 				FA789D0C1D9D2862005521A5 /* ViewController.swift in Sources */,
-				FA789D251D9D28AA005521A5 /* AAPLAppDelegate.m in Sources */,
 				FA789D0A1D9D2862005521A5 /* AppDelegate.swift in Sources */,
-				FA789D261D9D28AA005521A5 /* AAPLCameraViewController.m in Sources */,
-				FA789D271D9D28AA005521A5 /* AAPLPreviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +310,7 @@
 				FA789D1D1D9D2862005521A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
