@@ -28,6 +28,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Front Facing Camera</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Microphone</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
